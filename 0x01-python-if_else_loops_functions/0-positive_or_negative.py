@@ -4,13 +4,10 @@ import random
 # Assign a random signed number to the variable 'number'
 number = random.randint(-10, 10)
 
-# Check if the number is positive
+# Check if the number is positive, negative, or zero
 if number > 0:
-    print(f"{number} is positive\n")
-# check if negative
+    print(" {} is positive".format(number))
 elif number < 0:
-    print(f"{number} is negative\n")
-# check if zero
+    print(" {} is negative".format(number))
 else:
-    print(f"{number} is zero\n")
-
+    print(" 0 is zero\n")
