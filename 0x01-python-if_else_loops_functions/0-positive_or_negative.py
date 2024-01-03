@@ -6,15 +6,12 @@ number = random.randint(-10, 10)
 
 # Check if the number is positive
 if number > 0:
-    print("{} is positive".format(number))
+    print("{} is positive\n".format(number))
 
 # if the number is negative
 elif number < 0:
-    print("{} is negative".format(number))
+    print("{} is negative\n".format(number))
 
 # if the number is zero
 else:
-    print("0 is zero")
-
-# Print a new line
-print()
+    print("0 is zero\n")
