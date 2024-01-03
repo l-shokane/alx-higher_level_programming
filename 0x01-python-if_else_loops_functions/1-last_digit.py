@@ -8,7 +8,7 @@ number = random.randint(-10000, 10000)
 last_digit = abs(number) % 10  # Using abs to handle negative numbers
 
 # Format the output
-output_string = "Last digit of {} is {} and is {}."
+output_string = "Last digit of {} is {} and is {}"
 
 # if greater than
 if last_digit > 5:
