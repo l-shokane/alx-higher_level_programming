@@ -2,9 +2,9 @@
 const args = process.argv.slice(2); // No Script name
 
 if (args.length === 0) {
-  console.log('No arguement');
+  console.log('No argument');
 } else if (args.length === 1) {
-  console.log('Arguement found');
+  console.log('Argument found');
 } else {
-  console.log('Arguements found');
+  console.log('Arguments found');
 }
