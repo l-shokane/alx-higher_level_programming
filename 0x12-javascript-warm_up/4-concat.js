@@ -1,4 +1,4 @@
-#!usr/bin/node
+#!/usr/bin/node
 // A script that prints two arguments passed to it.
 
 const a = process.argv;
