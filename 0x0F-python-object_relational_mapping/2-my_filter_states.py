@@ -12,4 +12,4 @@ rows = c.fetchall()
 for row in rows:
     print(row)
 c.close()
-db.close
+db.close()
