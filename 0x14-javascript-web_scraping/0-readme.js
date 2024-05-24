@@ -1,5 +1,5 @@
 #!/usr/bin/node
-// A Script that reads and prints the content of a file
+
 
 const fs = require('fs');
 // Import the built-in Node.js 'fs' module.
